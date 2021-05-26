@@ -49,31 +49,40 @@ html, body {
 #orange-img {
     grid-column: 18 / span 2;
     grid-row: 2 / span 2;
-}
-
-#orange-img img {
     height:100%;
     width:100%;
 }
+
 
 #judge-zeynep-img {
     grid-column: 1 / span 5;
     grid-row: 4 / span 3;
-}
-
-#judge-zeynep-img img {
     height:100%;
     width:100%;
+    
 }
+
 #judge-kitten-img {
     grid-column: 17 / span 2;
     grid-row: 7 / span 3;
-}
-
-#judge-kitten-img img {
     height:100%;
     width:100%;
 }
+
+#coffee-img {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+    height:100%;
+    width:100%;
+}
+
+#bulldozer-img {
+    grid-column: 2 / span 3;
+    grid-row: 8 / span 2;
+    height:100%;
+    width:100%;
+}
+
 
 /* #region top-left-section */
 #top-left-section {
@@ -86,17 +95,9 @@ html, body {
     width:100%;
 }
 
-#top-left-section img {
-    grid-column: 3 / span 1;
-    grid-row: 2 / span 1;
-    height:100%;
-    width:100%;
-}
-
-
 #tl-one-one-outer {
     background-color: green;
-    clip-path: ellipse(20% 15% at 100% 50%); 
+    clip-path: circle(15% at 90% 50%); 
     grid-column:1 / span 1;
     grid-row: 1 / span 1;
     width:100%;
@@ -106,7 +107,7 @@ html, body {
 
 #tl-one-one-middle {
     background-color: blue;
-    clip-path: ellipse(15% 20% at 50% 100%); 
+    clip-path: circle(15% at 50% 90%); 
     grid-column:1 / span 1;
     grid-row: 1 / span 1;
     width:100%;
@@ -133,7 +134,7 @@ html, body {
 
 #tl-one-three-outer {
     background-color: green;
-    clip-path: ellipse(20% 15% at 0% 50%); 
+    clip-path: circle(15% at 10% 50%); 
     grid-column:3 / span 1;
     grid-row: 1 / span 1;
     width:100%;
@@ -143,7 +144,7 @@ html, body {
 
 #tl-one-three-middle {
     background-color: blue;
-    clip-path: ellipse(20% 15% at 100% 50%); 
+    clip-path: circle(15% at 90% 50%); 
     grid-column:3 / span 1;
     grid-row: 1 / span 1;
     width:100%;
@@ -171,7 +172,7 @@ html, body {
 
 #tl-one-five-outer {
     background-color: blue;
-    clip-path: ellipse(20% 15% at 0% 50%); 
+    clip-path: circle(15% at 10% 50%); 
     grid-column:5 / span 1;
     grid-row: 1 / span 1;
     width:100%;
@@ -180,7 +181,7 @@ html, body {
 }
 #tl-one-five-middle {
     background-color: green;
-    clip-path: ellipse(15% 20% at 50% 100%); 
+    clip-path: circle(15% at 50% 90%); 
     grid-column:5 / span 1;
     grid-row: 1 / span 1;
     width:100%;
@@ -208,7 +209,7 @@ html, body {
 
 #tl-two-two-outer-outer {
     background-color: yellow;
-    clip-path: ellipse(15% 20% at 50% 100%); 
+    clip-path: circle(15% at 50% 90%); 
     grid-column:2 / span 1;
     grid-row: 2 / span 1;
     width:100%;
@@ -217,7 +218,7 @@ html, body {
 }
 #tl-two-two-outer {
     background-color: blue;
-    clip-path: ellipse(20% 15% at 0% 50%); 
+    clip-path: circle(15% at 10% 50%); 
     grid-column:2 / span 1;
     grid-row: 2 / span 1;
     width:100%;
@@ -226,7 +227,7 @@ html, body {
 }
 #tl-two-two-middle {
     background-color: green;
-    clip-path: ellipse(15% 20% at 50% 0%); 
+    clip-path: circle(15% at 50% 10%); 
     grid-column:2 / span 1;
     grid-row: 2 / span 1;
     width:100%;
@@ -244,7 +245,7 @@ html, body {
 
 #tl-two-four-outer-outer {
     background-color: yellow;
-    clip-path: ellipse(15% 20% at 50% 100%); 
+    clip-path: circle(15% at 50% 90%); 
     grid-column:4 / span 1;
     grid-row: 2 / span 1;
     width:100%;
@@ -253,7 +254,7 @@ html, body {
 }
 #tl-two-four-outer {
     background-color: green;
-    clip-path: ellipse(20% 15% at 100% 50%); 
+    clip-path: circle(15% at 90% 50%); 
     grid-column:4 / span 1;
     grid-row: 2 / span 1;
     width:100%;
@@ -262,7 +263,7 @@ html, body {
 }
 #tl-two-four-middle {
     background-color: blue;
-    clip-path: ellipse(15% 20% at 50% 0%); 
+    clip-path: circle(15% at 50% 10%); 
     grid-column:4 / span 1;
     grid-row: 2 / span 1;
     width:100%;
@@ -285,26 +286,10 @@ html, body {
     height:100%;
     z-index:3;
 }
-#tl-two-five-middle {
-    background-color: blue;
-    clip-path: ellipse(15% 20% at 50% 0%); 
-    grid-column:5 / span 1;
-    grid-row: 2 / span 1;
-    width:100%;
-    height:100%;
-    z-index:2;
-}
-#tl-two-five-inner {
-    background-color: red;
-    grid-column:5 / span 1;
-    grid-row: 2 / span 1;
-    width:100%;
-    height:100%;
-    z-index:1;
-}
+
 #tl-three-one-outer {
     background-color: blue;
-    clip-path: ellipse(15% 20% at 50% 0);
+    clip-path: circle(15% at 50% 10%);
     grid-column:1 / span 1;
     grid-row: 3 / span 1;
     width:100%;
@@ -313,7 +298,7 @@ html, body {
 }
 #tl-three-one-middle {
     background-color: yellow;
-    clip-path: ellipse(20% 15% at 100% 50%); 
+    clip-path: circle(15% at 90% 50%); 
     grid-column:1 / span 1;
     grid-row: 3 / span 1;
     width:100%;
@@ -339,7 +324,7 @@ html, body {
 
 #tl-three-three-outer {
     background-color: yellow;
-    clip-path: ellipse(20% 15% at 0% 50%); 
+    clip-path: circle(15% at 10% 50%); 
     grid-column:3 / span 1;
     grid-row: 3 / span 1;
     width:100%;
@@ -348,7 +333,7 @@ html, body {
 }
 #tl-three-three-middle {
     background-color: yellow;
-    clip-path: ellipse(20% 15% at 100% 50%); 
+    clip-path: circle(15% at 90% 50%); 
     grid-column:3 / span 1;
     grid-row: 3 / span 1;
     width:100%;
@@ -374,7 +359,7 @@ html, body {
 
 #tl-three-five-outer {
     background-color:green;
-    clip-path: ellipse(15% 20% at 50% 0%); 
+    clip-path: circle(15% at 50% 10%); 
     grid-column:5 / span 1;
     grid-row: 3 / span 1;
     width:100%;
@@ -383,7 +368,7 @@ html, body {
 }
 #tl-three-five-middle {
     background-color: yellow;
-    clip-path: ellipse(20% 15% at 0% 50%);
+    clip-path: circle(15% at 10% 50%);
     grid-column:5 / span 1;
     grid-row: 3 / span 1;
     width:100%;
@@ -403,23 +388,624 @@ html, body {
 
 /* #region bottom-left-section */
 #bottom-left-section {  
-        display:grid;
-        grid-template-columns: repeat(5, calc(100%/5));
-        grid-template-rows: repeat(4, calc(100%/4));
-        grid-column: 1 / span 5;
-        grid-row: 7 / span 4;
-        height:100%;
-        width:100%;  
+    display:grid;
+    grid-template-columns: repeat(5, calc(100%/5));
+    grid-template-rows: repeat(4, calc(100%/4));
+    grid-column: 1 / span 5;
+    grid-row: 7 / span 4;
+    height:100%;
+    width:100%;  
 }
 
-#bottom-left-section img {
-    grid-column: 2 / span 3;
-    grid-row: 2 / span 2;
-    height:100%;
+#bl-one-one-outer {
+    background-color: green;
+    clip-path: circle(15% at 90% 50%); 
+    grid-column:1 / span 1;
+    grid-row: 1 / span 1;
     width:100%;
+    height:100%;
+    z-index:3;
 }
+
+#bl-one-one-middle {
+    background-color: blue;
+    clip-path: circle(15% at 50% 90%); 
+    grid-column:1 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+
+#bl-one-one-inner {
+    background-color: red;
+    grid-column:1 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#bl-one-two-outer { 
+    background-color: green;
+    grid-column:2 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+
+#bl-one-three-outer {
+    background-color: green;
+    clip-path: circle(15% at 10% 50%); 
+    grid-column:3 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+
+#bl-one-three-middle {
+    background-color: blue;
+    clip-path: circle(15% at 90% 50%); 
+    grid-column:3 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+
+#bl-one-three-inner {
+    background-color: red;
+    grid-column:3 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#bl-one-four-outer {
+    background-color: blue;
+    grid-column:4 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#bl-one-five-outer {
+    background-color: blue;
+    clip-path: circle(15% at 10% 50%); 
+    grid-column:5 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#bl-one-five-middle {
+    background-color: green;
+    clip-path: circle(15% at 50% 90%); 
+    grid-column:5 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+#bl-one-five-inner {
+    background-color: red;
+    grid-column:5 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#bl-two-one-outer {
+    background-color: blue;
+    grid-column:1 / span 1;
+    grid-row: 2 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#bl-two-five-outer {
+    background-color: green;
+    grid-column:5 / span 1;
+    grid-row: 2 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#bl-three-one-outer {
+    background-color: yellow;
+    grid-column:1 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#bl-three-one-middle {
+    background-color: blue;
+    clip-path: circle(15% at 50% 10%); 
+    grid-column:1 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+#bl-three-one-inner {
+    background-color: red;
+    clip-path: circle(15% at 50% 90%); 
+    grid-column:1 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+
+#bl-three-five-outer {
+    background-color: yellow;
+    grid-column:5 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#bl-three-five-middle {
+    background-color: green;
+    clip-path: circle(15% at 50% 10%); 
+    grid-column:5 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index
+    :2;
+}
+#bl-three-five-inner {
+    background-color: red;
+    clip-path: circle(15% at 50% 90%); 
+    grid-column:5 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#bl-four-one-inner {
+    background-color: red;
+    grid-column:1 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#bl-four-two-outer {
+    background-color: green;
+    grid-column:2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#bl-four-two-middle {
+    background-color: red;
+    clip-path: circle(15% at 10% 50%); 
+    grid-column:2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index
+    :2;
+}
+#bl-four-two-inner {
+    background-color: yellow;
+    clip-path: circle(15% at 90% 50%); 
+    grid-column:2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#bl-four-three-outer {
+    background-color: yellow;
+    grid-column:3 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#bl-four-four-outer {
+    background-color: blue;
+    grid-column:4 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#bl-four-four-middle {
+    background-color: yellow;
+    clip-path: circle(15% at 10% 50%); 
+    grid-column:4 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index
+    :2;
+}
+#bl-four-four-inner {
+    background-color: red;
+    clip-path: circle(15% at 90% 50%); 
+    grid-column:4 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#bl-four-five-outer {
+    background-color: red;
+    grid-column:5 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
 /* #endregion */
 
+/* #region right-section */
+#right-section {
+    display:grid;
+    grid-template-columns: repeat(5, calc(100%/5));
+    grid-template-rows: repeat(10, calc(100%/10));
+    grid-column: 16 / span 5;
+    grid-row: 1 / span 10;
+    height:100%;
+    width:100%;  
+}
+
+#rs-one-one-outer {
+    background-color: green;
+    clip-path: circle(15% at 90% 50%); 
+    grid-column:1 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+
+#rs-one-one-middle {
+    background-color: blue;
+    clip-path: circle(15% at 50% 90%); 
+    grid-column:1 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+
+#rs-one-one-inner {
+    background-color: red;
+    grid-column:1 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#rs-one-two-outer { 
+    background-color: green;
+    grid-column:2 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+
+#rs-one-three-outer {
+    background-color: green;
+    clip-path: circle(15% at 10% 50%); 
+    grid-column:3 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+
+#rs-one-three-middle {
+    background-color: blue;
+    clip-path: circle(15% at 90% 50%); 
+    grid-column:3 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+
+#rs-one-three-inner {
+    background-color: red;
+    grid-column:3 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#rs-one-four-outer {
+    background-color: blue;
+    grid-column:4 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#rs-one-five-outer {
+    background-color: blue;
+    clip-path: circle(15% at 10% 50%); 
+    grid-column:5 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#rs-one-five-middle {
+    background-color: green;
+    clip-path: circle(15% at 50% 90%); 
+    grid-column:5 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+#rs-one-five-inner {
+    background-color: red;
+    grid-column:5 / span 1;
+    grid-row: 1 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#rs-two-one-outer {
+    background-color: blue;
+    grid-column:1 / span 1;
+    grid-row: 2 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+
+#rs-two-two-outer-outer {
+    background-color: yellow;
+    clip-path: circle(15% at 50% 90%); 
+    grid-column:2 / span 1;
+    grid-row: 2 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#rs-two-two-outer {
+    background-color: blue;
+    clip-path: circle(15% at 10% 50%); 
+    grid-column:2 / span 1;
+    grid-row: 2 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#rs-two-two-middle {
+    background-color: green;
+    clip-path: circle(15% at 50% 10%); 
+    grid-column:2 / span 1;
+    grid-row: 2 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+#rs-two-two-inner {
+    background-color: red;
+    grid-column:2 / span 1;
+    grid-row: 2 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#rs-two-five-outer {
+    background-color: green;
+    grid-column:5 / span 1;
+    grid-row: 2 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#rs-three-one-outer-outer {
+    background-color: blue;
+    clip-path: circle(15% at 50% 10%);
+    grid-column:1 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#rs-three-one-outer {
+    background-color: yellow;
+    clip-path: circle(15% at 90% 50%); 
+    grid-column:1 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+#rs-three-one-middle {
+    background-color: green;
+    clip-path: circle(15% at 50% 900%); 
+    grid-column:1 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+    }
+#rs-three-one-inner {
+    background-color: red;
+    grid-column:1 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#rs-three-two-outer {
+    background-color: yellow;
+    grid-column:2 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+
+#rs-three-five-outer {
+    background-color:green;
+    clip-path: circle(15% at 50% 10%); 
+    grid-column:5 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#rs-three-five-middle {
+    background-color: blue;
+    clip-path: circle(15% at 50% 90%); 
+    grid-column:5 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+#rs-three-five-inner {
+    background-color: red;
+    grid-column:5 / span 1;
+    grid-row: 3 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+
+#rs-four-one-outer {
+    background-color: green;
+    grid-column:1 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+#rs-four-two-outer-outer-outer {
+    background-color: yellow;
+    clip-path: circle(15% at 50% 10%);
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:5;
+}
+#rs-four-two-outer-outer {
+    background-color: green;
+    clip-path: circle(15% at 10% 50%);
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:4;
+}
+#rs-four-two-outer {
+    background-color: blue;
+    clip-path: circle(15% at 90% 50%);
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:3;
+}
+#rs-four-two-outer {
+    background-color: green;
+    clip-path: circle(15% at 50% 90%);
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+#rs-four-two-middle {
+    background-color: blue;
+    clip-path: circle(15% at 90% 50%);
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:2;
+}
+#rs-four-two-inner {
+    background-color: red;
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+#rs-four-three-outer {
+    background-color: blue;
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;
+    height:100%;
+    width:100%;
+    z-index:1;
+}
+#rs-four-four-outer-outer {
+    background-color: red;
+    clip-path: circle(15% at 50% 90%);
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+    height:100%;
+    width:100%;
+    z-index:4;
+}
+#rs-four-four-outer {
+    background-color: blue;
+    clip-path: circle(15% at 90% 50%);
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+    height:100%;
+    width:100%;
+    z-index:3;
+}
+#rs-four-four-middle {
+    background-color: blue;
+    clip-path: circle(15% at 10% 50%);
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+    height:100%;
+    width:100%;
+    z-index:2;
+}
+#rs-four-four-inner {
+    background-color: yellow;
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+    height:100%;
+    width:100%;
+    z-index:1;
+}
+#rs-four-five-outer {
+    background-color: blue;
+    grid-column: 5 / span 1;
+    grid-row: 4 / span 1;
+    height:100%;
+    width:100%;
+    z-index:1;
+}
+
+/* #endregion */
 
 #title-section { 
     background-color: purple;
