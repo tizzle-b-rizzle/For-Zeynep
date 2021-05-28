@@ -384,6 +384,9 @@ html, body {
     z-index:1;
 }
 
+.yellow {
+    height:100%;width:100%;
+}
 /* #endregion */
 
 /* #region bottom-left-section */
