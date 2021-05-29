@@ -1556,36 +1556,41 @@ html, body {
 
 @media screen and (max-width: 630px) {
     #page {
+      background-color: blue;
       grid-template-columns:repeat(10, 9.945vh);
-      grid-template-rows: repeat(20, 10.945vh);
+      grid-template-rows: repeat(12, 10.945vh);
     }
     #title-section {
-        grid-column: 3 / span 6;
+        grid-column: 1 / span 10;
         grid-row: 1 / span 2;
     }
     #message-section {
-        grid-column: 3 / span 6;
-        grid-row: 3 / span 15;
+        grid-column: 1 / span 10;
+        grid-row: 3 / span 12;
+    }
+    #top-left-section {
+        display:none;
+    }
+    #bottom-left-section {
+        display:none;
+    }
+    #right-section {
+        display:none;
     }
     #judge-zeynep-img {
-        grid-column: 3 / span 6;
-        grid-row: 17 / span 3;
+       display:none;
     }
     #orange-img {
-        grid-column: 9 /span 2;
-        grid-row: 1 /span 2;
+      display:none;
     }
     #judge-kitten-img {
-        grid-column: 1 / span 2;
-        grid-row: 4 / span 2
+      display:none;
     }
     #bulldozer-img {
-        grid-column: 9 / span 2;
-        grid-row: 7 / span 2;
+        display:none;
     }
     #coffee-img {
-        grid-column: 1 / span 2;
-        grid-row: 10 / span 2;
+        display:none;
     }
 }
 
