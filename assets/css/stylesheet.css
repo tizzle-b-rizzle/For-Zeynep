@@ -83,6 +83,13 @@ html, body {
     width:100%;
 }
 
+#stamp-img {
+    grid-column:15 / span 1;
+    grid-row: 1 / span 1;
+    height:100%;
+    width:100%;
+}
+
 
 /* #region top-left-section */
 #top-left-section {
@@ -1520,7 +1527,7 @@ html, body {
 /* #endregion */
 
 #title-section { 
-    background-color: purple;
+    background-color: #EDE3E1;
     grid-column: 6 / span 10;
     grid-row: 1 / span 2; 
    
@@ -1534,39 +1541,55 @@ html, body {
     justify-content:center;
     text-align:center;
     width:100%;   
+
+    animation-name:change-colour;
+    animation-iteration-count: infinite;
+    animation-duration:10s;
 }
 
 #title-section-wrapper h1 {
+   font-family: 'Kalam', cursive;
    font-size:3.5rem;
+   text-decoration:underline;
 }
 
 
 #message-section {
-    background-color: orange;
+    background-color: #EDE3E1;
     grid-column: 6 / span 10;
     grid-row: 3 / span 8;
     height:100%;
     max-height:100%;
-    text-align:center;
+    padding: 0 10% 0 10%;
+    text-align:left;
     width:100%;
     max-width:100%;
+    word-wrap: break-word;
+}
+
+
+#message-section p {
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+    text-decoration:none;
 }
 
 
 
 @media screen and (max-width: 630px) {
     #page {
-      background-color: blue;
-      grid-template-columns:repeat(10, 9.945vh);
-      grid-template-rows: repeat(12, 10.945vh);
+      background-color: #EDE3E1;
+      grid-template-columns:repeat(10, 9.945vw);
+      grid-template-rows: repeat(18, 10.945vh);
+      width:100%;
     }
     #title-section {
         grid-column: 1 / span 10;
-        grid-row: 1 / span 2;
+        grid-row: 2 / span 2;
     }
     #message-section {
         grid-column: 1 / span 10;
-        grid-row: 3 / span 12;
+        grid-row: 4 / span 11;
     }
     #top-left-section {
         display:none;
@@ -1578,7 +1601,10 @@ html, body {
         display:none;
     }
     #judge-zeynep-img {
-       display:none;
+       grid-column:1 / span 10;
+       grid-row: 15 / span 3;
+       height:100%;
+       width:100%;
     }
     #orange-img {
       display:none;
@@ -1592,6 +1618,15 @@ html, body {
     #coffee-img {
         display:none;
     }
+    #stamp-img {
+        grid-column: 9/ span 2;
+        grid-row: 1 / span 1;
+    }
+    #title-section-wrapper h1 {
+        font-family: 'Kalam', cursive;
+        font-size:2rem;
+        text-decoration:underline;
+     }
 }
 
 
